@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+/*Code created by Adenutsi Andy Eleos 10974829*/
 bool isPrime(int e)
 {
     if (e <= 1)

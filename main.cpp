@@ -21,9 +21,10 @@ bool isPrime(int e)
 
 int main()
 {
-    int sum=0;
+    float sum=0.0;
+    int c=0;
     int e;
-    cout<<"type a number"<<endl;
+    cout<<"Type a number"<<endl;
     cin>>e;
 
     for (int i=1; i<e; i++)
@@ -31,8 +32,10 @@ int main()
         if (isPrime(i))
         {
             sum+=i;
+            c+=1;
         }
     }
 
     cout << "The sum of Prime numbers below " << e << " is " << sum <<endl;
+    float avg=sum/c;
 }
